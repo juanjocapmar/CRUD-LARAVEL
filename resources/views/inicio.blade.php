@@ -44,9 +44,9 @@
                                 <td>{{ $item -> materno}}</td>
                                 <td>{{ $item -> fecha_nacimiento}}</td>
                                 <td>
-                                    <form action="{{ route("personas.edit") , $item -> id }}" method="GET">
+                                    <!--<form action="{{ route("personas.edit") , $item -> id }}" method="GET">
                                         <a href="#" class>Editar</a>
-                                    </form>                
+                                    </form>-->                
                                 </td>
                                 <td><a href="{{ route("personas.show") }}">Eliminar</a></td>
                             </tr>
